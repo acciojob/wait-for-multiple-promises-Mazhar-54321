@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded",async function(){
 		console.log("hi")
 		tbody.innerHTML="";
 		console.log(tbody);
-		let total = array.reduce((acc,curr)=>acc+=Number(curr[1]),0).toFixed(3)
+		const total = Math.max(...array.map(p => parseFloat(p[1]))).toFixed(3);
 		
 		tbody.innerHTML=`<tr>
 		<td>${array[0][0]}</td>
