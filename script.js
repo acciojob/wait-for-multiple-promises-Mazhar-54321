@@ -39,8 +39,7 @@ document.addEventListener("DOMContentLoaded",async function(){
 		
 		tbody.innerHTML=`<tr>
 		<td>${array[0][0]}</td>
-		<td>${array[0][1]}</td>
-		</tr>
+		<td>${array[0][1]}</td></tr>
 		<tr>
 		<td>${array[1][0]}</td>
 		<td>${array[1][1]}</td>
